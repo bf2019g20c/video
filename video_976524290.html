@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>【回忆相册】充满希望的三年</title>
+        <link rel = "shortcut icon" href = "https://krseoul.imgtbl.com/i/2024/03/27/6603a607a224a.ico">
+        <meta charset = "utf-8">
+        <style>
+            .headerbar{
+               background: linear-gradient(to bottom right, blue, pink);
+            }
+        </style>
+        <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    </head>
+    <body>
+        <div class = "headerbar">
+            <img src = "https://s1.ax1x.com/2023/03/16/pp3LBjg.png">
+        </div>
+        <div class = "play">
+            <h2>【回忆相册】充满希望的三年</h3>
+            <p style = "color:grey;">&nbsp;&nbsp;&nbsp;2024-12-12&nbsp;简介：先不写简介了AwA</p>
+            <video id = 'player'>
+                <source src = 'https://rendering-prod.s3.amazonaws.com/final/97d65a679b092cd1b021158d/91df5a671ea07db0124eb24b.mp4'>
+            </video>
+            <script>
+                var vs = document.getElementById('player');
+                const player = new Plyr(vs,{
+                    i18n:{
+                        speed:'速度',
+                        normal:'正常',
+                    }
+                });
+                window.player = player;
+            </script>
+        <br>
+    </body>
+</html>
